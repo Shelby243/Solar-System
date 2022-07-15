@@ -34,6 +34,7 @@ calculateBtn.addEventListener("click",()=>{
         if(selectedPlanets[0].selected && txtValue)
         {
             load.classList.add("PlanetError")
+            load.classList.remove("result")
         }
         else if(selectedPlanets[0].selected && !txtValue)
             {
@@ -75,5 +76,6 @@ txtInput.addEventListener("keyup",()=>{
     if(!txtInput.value)
     {
         load.classList.remove("PlanetError")
+        load.classList.remove("result")
     }
 })
