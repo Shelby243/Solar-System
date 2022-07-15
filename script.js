@@ -52,7 +52,7 @@ calculateBtn.addEventListener("click",()=>{
                 let result=solarValues[i]*parseInt(txtValue)
                 console.log(result)
                 txt.innerText=`${selectedPlanets[i].value}`
-                answers.innerHTML=`${result} N`
+                answers.innerHTML=`${result.toFixed(2)} N`
                 images.src=imgs[i]
                 
 
