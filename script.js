@@ -19,7 +19,7 @@ const images=load.querySelector("img")
 
 const imgs=["","images/mercury.png","images/venus.png","images/earth.png","images/moon.png","images/mars.png",
 "images/jupiter.png","images/saturn.png","images/uranus.png","images/neptune.png","images/pluto.png"]
-const solarValues=[0, 3.70, 8.87, 9.8, 1.62, 3.72, 24.79, 10.44, 8.87, 11.15, 0.62 ]
+const solarValues=[0, 3.70, 8.87, 9.8, 1.62, 3.72, 24.79, 10.44, 8.87, 11.157, 0.62 ]
 
 
 calculateBtn.addEventListener("click",()=>{
